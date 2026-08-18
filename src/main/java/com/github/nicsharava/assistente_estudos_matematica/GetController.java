@@ -27,6 +27,15 @@ public class GetController {
                     return new Response(resposta,false);
 
                 }
+
+            } else if ("ARRANJO".equalsIgnoreCase(calculo.getTipo())) {
+                if (calculo.getResposta() == nFatorial / fatorial(n - p)){
+                    resposta = nFatorial / fatorial(n - p );
+                    return new Response(resposta,true);
+                } else{
+                    resposta = nFatorial / fatorial(n - p );
+                    return new Response(resposta,false);
+                }
             }
 
         }
