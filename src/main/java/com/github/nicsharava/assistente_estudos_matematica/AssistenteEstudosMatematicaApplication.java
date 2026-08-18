@@ -1,3 +1,4 @@
+
 package com.github.nicsharava.assistente_estudos_matematica;
 
 import org.springframework.boot.SpringApplication;
@@ -11,3 +12,4 @@ public class AssistenteEstudosMatematicaApplication {
 	}
 
 }
+
