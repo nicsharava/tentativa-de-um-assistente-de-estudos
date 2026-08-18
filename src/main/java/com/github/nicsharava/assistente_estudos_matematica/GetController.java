@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api")
 public class GetController {
-    @PostMapping("/teste")
+    @PostMapping("/calcular")
     public static Response estaCerto(@RequestBody Info calculo){
         if(calculo.getN() >= calculo.getP()){
             // Fórmula da combinação simples: C n p = n! / p!(n - p)!
